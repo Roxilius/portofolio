@@ -6,9 +6,7 @@ const Hero = () => {
   return (
     <section className=" text-white py-16 px-4 sm:px-6 lg:px-8 border-b border-neutral-800">
       <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-24">
-        {/* Text Section */}
         <div className="w-full lg:w-1/2 text-center lg:text-left">
-          {/* Nama */}
           <motion.h1
             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-4 bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-500 bg-clip-text text-transparent"
             initial={{ opacity: 0, y: 40 }}
@@ -19,7 +17,6 @@ const Hero = () => {
             Fajri Khairan Masti
           </motion.h1>
 
-          {/* Role */}
           <motion.span
             whileTap={{ scale: 1.05 }}
             drag="x"
@@ -33,7 +30,6 @@ const Hero = () => {
             Full Stack Developer
           </motion.span>
 
-          {/* Deskripsi */}
           <motion.p
             className="text-sm sm:text-base md:text-lg text-gray-400 leading-relaxed max-w-xl mx-auto lg:mx-0"
             initial={{ opacity: 0, y: 30 }}
@@ -45,7 +41,6 @@ const Hero = () => {
           </motion.p>
         </div>
 
-        {/* Gambar Profil */}
         <div className="w-full lg:w-1/2 flex justify-center">
           <motion.img
             src={profile}

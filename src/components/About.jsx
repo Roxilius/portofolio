@@ -16,7 +16,6 @@ const About = () => {
       </motion.h1>
 
       <div className="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-20 max-w-7xl mx-auto">
-        {/* Gambar */}
         <motion.div
           className="w-full lg:w-1/2 flex justify-center"
           initial={{ opacity: 0, x: 50 }}
@@ -30,7 +29,6 @@ const About = () => {
             alt="Fajri Khairan Masti"
           />
         </motion.div>
-        {/* Deskripsi */}
         <motion.div
           className="w-full lg:w-1/2 text-center lg:text-left"
           initial={{ opacity: 0, x: -50 }}
