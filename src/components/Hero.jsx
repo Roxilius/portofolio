@@ -27,7 +27,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            Full Stack Developer
+            Web Developer
           </motion.span>
 
           <motion.p
@@ -37,7 +37,14 @@ const Hero = () => {
             transition={{ duration: 1, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            Saya adalah developer web modern — membangun antarmuka interaktif dengan React & Tailwind CSS, serta backend efisien dengan Spring Boot. Saya senang merancang sistem yang elegan, optimal, dan mudah dirawat. Aktif menjelajahi teknologi baru & berkontribusi dalam proyek open-source.
+            Sebagai web developer, saya menguasai pengembangan frontend dan
+            backend, menciptakan aplikasi web yang fungsional dan menarik.
+            Dengan pengalaman menggunakan React, Tailwind CSS untuk tampilan
+            pengguna, serta Spring Boot dan database untuk membangun sistem
+            backend yang efisien dan aman. Saya selalu
+            bersemangat untuk mengeksplorasi alat dan framework baru, serta
+            terus meningkatkan keterampilan saya dalam industri yang terus
+            berkembang ini.
           </motion.p>
         </div>
 

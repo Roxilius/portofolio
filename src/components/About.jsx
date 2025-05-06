@@ -37,13 +37,13 @@ const About = () => {
           viewport={{ once: true }}
         >
           <p className="text-gray-300 text-base sm:text-lg md:text-xl leading-relaxed max-w-xl mx-auto lg:mx-0">
-            Saya adalah seorang developer yang bersemangat dalam membangun
-            solusi digital modern. Berpengalaman dalam pengembangan frontend
-            dengan React dan Tailwind CSS, serta backend dengan Java Spring
-            Boot. Saya percaya pada prinsip clean code, sistem yang scalable,
-            dan UI/UX yang ramah pengguna. Saat tidak coding, saya senang
-            belajar teknologi baru, berkontribusi di open-source, dan ngopi
-            sambil debugging. 🚀
+            Saya memiliki keahlian dalam pengembangan aplikasi berbasis web yang
+            responsif dan userfriendly. Menguasai berbagai bahasa pemrograman
+            dan framework dan lebih berfokus sebagai backend developer
+            menggunakan Spring Boot, Saya memiliki kemampuan bekerjasama
+            dalam tim, komunikasi, dan pemecahan masalah yang baik. Saya
+            termotivasi untuk terus belajar dan berkembang di bidang web
+            development
           </p>
         </motion.div>
       </div>
