@@ -10,7 +10,7 @@ const variants = (duration) => ({
   initial: { opacity: 0, y: -10 },
   animate: {
     opacity: 1,
-    y: [10, -10], // looping naik-turun
+    y: [10, -10],
     transition: {
       opacity: { duration: 0.3 },
       y: {
