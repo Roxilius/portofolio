@@ -31,7 +31,7 @@ export const projects = [
       image: bacco,
       description:
         "Aplikasi toko sederhana berbasis terminal yang dikembangkan menggunakan bahasa C. Menyediakan fitur manajemen produk, pencatatan transaksi, serta sistem navigasi menu berbasis teks yang efisien untuk simulasi sistem toko secara offline.",
-      tech: ["C Language", "Command-Line Interface (CLI)", "File Handling"],
+      tech: ["C Language", "File Handling", "Command-Line Interface (CLI)"],
       github: "https://github.com/Roxilius/Projeck-C",
       visit: "",
     },

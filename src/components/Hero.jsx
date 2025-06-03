@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 import { motion } from "framer-motion";
-import profile from "../assets/profile.jpg";
+import profile2 from "../assets/profile2.jpg";
 
 const Hero = () => {
   return (
@@ -50,7 +50,7 @@ const Hero = () => {
 
         <div className="w-full lg:w-1/2 flex justify-center">
           <motion.img
-            src={profile}
+            src={profile2}
             alt="Fajri Khairan Masti"
             className="rounded-full border-4 border-cyan-500 shadow-[0_0_30px_#0ff5] object-cover w-40 h-40 sm:w-52 sm:h-52 md:w-60 md:h-60 lg:w-72 lg:h-72 transition-transform hover:scale-105"
             initial={{ opacity: 0, scale: 0.8 }}
