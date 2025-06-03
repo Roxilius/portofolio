@@ -7,14 +7,17 @@ import { motion } from "framer-motion";
 import { FiFramer } from "react-icons/fi";
 
 const variants = (duration) => ({
-  initial: { y: -10 },
+  initial: { opacity: 0, y: -10 },
   animate: {
-    y: [10, -10],
+    opacity: 1,
+    y: [10, -10], // looping naik-turun
     transition: {
-      duration: duration,
-      ease: "linear",
-      repeat: Infinity,
-      repeatType: "reverse",
+      opacity: { duration: 0.3 },
+      y: {
+        duration: duration,
+        ease: "easeInOut",
+        repeat: Infinity,
+      },
     },
   },
 });
@@ -72,9 +75,7 @@ const TechStack = () => {
           <motion.div
             key={index}
             variants={variants(tech.duration)}
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: index * 0.3 }}
+            initial="initial"
             animate="animate"
             className="rounded-4xl text-7xl border-4 border-neutral-800 p-3 shadow-md  hover:scale-105 duration-300"
             style={{ color: tech.color }}
