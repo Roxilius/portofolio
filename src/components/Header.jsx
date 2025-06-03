@@ -14,13 +14,13 @@ const Header = () => {
         {/* <img className="mx-2 w-10" src="" alt="logo" /> */}
       </div>
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-        <a href="https://www.linkedin.com/in/fajri-khairan/">
+        <a href="https://www.linkedin.com/in/fajri-khairan/" target="_blank">
           <FaLinkedin className="text-blue-400" />
         </a>
-        <a href="https://github.com/Roxilius">
+        <a href="https://github.com/Roxilius" target="_blank">
           <FaGithub className="text-slate-400" />
         </a>
-        <a href="https://www.instagram.com/roxilius___/">
+        <a href="https://www.instagram.com/roxilius___/" target="_blank">
           <FaInstagram className="text-red-400" />
         </a>
       </div>
